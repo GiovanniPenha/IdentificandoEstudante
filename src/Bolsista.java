@@ -1,4 +1,8 @@
-package PACKAGE_NAME;
+public class Bolsista extends Aluno{
 
-public class Bolsista {
+    public Bolsista(String nome) {
+        super(nome, "Bolsista");
+    }
 }
+
+
